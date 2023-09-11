@@ -205,3 +205,97 @@ button:hover {
     font-size: 18px;
   }
 }
+/* Общие стили */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  background-image: url('texture.png');
+  background-repeat: repeat;
+  color: #D9D9D9;
+}
+
+header {
+  background-color: #0D5EAF;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo img {
+  max-width: 100px;
+}
+
+#logo h1 {
+  margin: 0;
+  font-size: 24px;
+  font-family: 'Helvetica', sans-serif;
+  color: #D9D9D9;
+  margin-left: 10px;
+}
+
+button {
+  background-color: #D90C27;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 12px 24px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #B90A22;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #0D5EAF;
+  max-width: 100%; /* Изображения не выходят за пределы контейнера */
+}
+
+.company h1 {
+  font-size: 24px;
+  font-family: 'Georgia', serif;
+  color: #0D5EAF;
+}
+
+.company p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #D9D9D9;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0 10px; /* Добавил небольшие отступы по бокам */
+}
+
+/* Адаптивные стили для мобильных устройств */
+@media only screen and (max-width: 600px) {
+  #logo h1 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  .company h1 {
+    font-size: 22px;
+  }
+
+  .company p {
+    font-size: 18px;
+  }
+}
