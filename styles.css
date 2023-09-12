@@ -299,3 +299,19 @@ button:hover {
     font-size: 18px;
   }
 }
+.social-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  width: 50px; /* Задайте желаемую ширину для логотипов */
+  height: auto;
+  margin: 0 10px; /* Добавьте немного отступов между логотипами */
+  cursor: pointer;
+  transition: transform 0.2s; /* Добавьте анимацию при наведении */
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Увеличьте размер при наведении */
+}
