@@ -1,0 +1,345 @@
+#contact {
+  color: #D9D9D9;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold; /* Добавляем жирность */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Добавляем тень */
+}
+.company {
+  background-color: rgba(255, 255, 255, 0.9); /* Белый с небольшой прозрачностью */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.company h1, .company p {
+  margin-bottom: 10px;
+}
+.company h1 {
+  font-size: 28px; /* Увеличиваем размер заголовка */
+  font-weight: bold; /* Делаем текст жирным */
+  color: #0D5EAF; /* Синий цвет */
+  font-family: 'Georgia', serif; /* Изменяем шрифт */
+}
+
+.company p {
+  font-size: 20px; /* Увеличиваем размер текста */
+  line-height: 1.6; /* Увеличиваем межстрочный интервал */
+  color: #662e96; /* Черный цвет текста */
+  font-family: 'Arial', sans-serif; /* Изменяем шрифт */
+}
+
+
+button {
+  /* ... (ваши стили кнопок) ... */
+  transition: background-color 0.3s; /* Анимация при наведении */
+}
+
+button:hover {
+  background-color: #B90A22;
+  transform: scale(1.05); /* Небольшое увеличение при наведении */
+}
+
+.company img {
+  /* ... (ваши стили изображений) ... */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+  border: 4px solid #0D5EAF; /* Добавляем синюю рамку */
+
+}
+
+body {
+  background-color: #D9D9D9;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0D5EAF;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Размещаем элементы по горизонтали */
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo img {
+  max-width: 100px;
+}
+
+#logo h1 {
+  margin: 0;
+  font-size: 30px;
+  font-family: 'Helvetica', sans-serif;
+  color: #D9D9D9;
+  margin-left: 10px;
+  font-weight: bold; /* Добавляем жирность */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Добавляем тень */
+}
+
+
+
+button {
+  background-color: #D90C27;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 12px 24px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #B90A22;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.company img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.company h1 {
+  font-size: 24px;
+  font-family: 'Georgia', serif;
+  color: #0D5EAF;
+}
+
+.company p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333333;
+}
+/* Общие стили */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  background-image: url('texture.png');
+  background-repeat: repeat;
+  color: #D9D9D9;
+}
+
+header {
+  background-color: #0D5EAF;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo img {
+  max-width: 100px;
+}
+
+#logo h1 {
+  margin: 0;
+  font-size: 24px;
+  font-family: 'Helvetica', sans-serif;
+  color: #D9D9D9;
+  margin-left: 10px;
+}
+
+button {
+  background-color: #D90C27;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 12px 24px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #B90A22;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.company img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #0D5EAF;
+}
+
+.company h1 {
+  font-size: 24px;
+  font-family: 'Georgia', serif;
+  color: #0D5EAF;
+}
+
+.company p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #443d3d;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Адаптивные стили для мобильных устройств */
+@media only screen and (max-width: 600px) {
+  #logo h1 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  .company h1 {
+    font-size: 22px;
+  }
+
+  .company p {
+    font-size: 18px;
+  }
+}
+/* Общие стили */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  background-image: url('texture.png');
+  background-repeat: repeat;
+  color: #D9D9D9;
+}
+
+header {
+  background-color: #0D5EAF;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo img {
+  max-width: 100px;
+}
+
+#logo h1 {
+  margin: 0;
+  font-size: 24px;
+  font-family: 'Helvetica', sans-serif;
+  color: #D9D9D9;
+  margin-left: 10px;
+}
+
+button {
+  background-color: #D90C27;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 12px 24px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #B90A22;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #0D5EAF;
+  max-width: 100%; /* Изображения не выходят за пределы контейнера */
+}
+
+.company h1 {
+  font-size: 24px;
+  font-family: 'Georgia', serif;
+  color: #0D5EAF;
+}
+
+.company p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #2f1818;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0 10px; /* Добавил небольшие отступы по бокам */
+}
+
+/* Адаптивные стили для мобильных устройств */
+@media only screen and (max-width: 600px) {
+  #logo h1 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  .company h1 {
+    font-size: 22px;
+  }
+
+  .company p {
+    font-size: 18px;
+  }
+}
+.social-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  width: 50px; /* Задайте желаемую ширину для логотипов */
+  height: auto;
+  margin: 0 10px; /* Добавьте немного отступов между логотипами */
+  cursor: pointer;
+  transition: transform 0.2s; /* Добавьте анимацию при наведении */
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Увеличьте размер при наведении */
+}
+
+.social-buttons {
+  background-color: #0D5EAF; /* Цвет синей площадки */
+  padding: 10px; /* Добавляем немного отступов вокруг кнопок */
+  text-align: center; /* Центрируем кнопки */
+}
+
+.social-icon {
+  width: 40px;
+  height: auto;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
